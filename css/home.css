@@ -14,8 +14,9 @@ nav {
 }
 h1 {
 	color: var(--white);
+	margin: 0px;
 }
-h2 {
+p {
 	color: var(--white);
 }
 .title {
@@ -36,6 +37,9 @@ h2 {
 	}
 	.title {
 		background-color: var(--dark-pink);
+	}
+	.vague {
+		width: 100%;
 	}
 }
 @media screen and (min-width: 1024px) {
