@@ -22,6 +22,20 @@ p {
 .title {
 	background-color: var(--dark-pink);
 }
+.vague {
+	width: 100%;
+}
+.h1 {
+	padding: 20px;
+}
+.free {
+	background-color: var(--cyan-blue);
+	color: var(--white);
+	border: none;
+	border-radius: 999px;
+	width: 35%;
+	padding: 10px;
+}
 @media screen and (min-width: 768px) {
 	ul {
 		display: flex;
@@ -37,9 +51,6 @@ p {
 	}
 	.title {
 		background-color: var(--dark-pink);
-	}
-	.vague {
-		width: 100%;
 	}
 }
 @media screen and (min-width: 1024px) {
